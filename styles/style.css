@@ -1,0 +1,90 @@
+body{
+    background: url('../images/amusement-park-blur-5k-qe-1920x1080.jpg');
+background-size: cover;
+font-family: Arial;
+}
+*{
+    box-sizing: border-box;
+}
+p,h2{
+    padding: 0;
+    margin: 0;
+}
+#login{
+    position: relative;
+    width: 700px;
+    margin: 200px auto;
+}
+#login .bg{
+    width: 700px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: rgba(46,46,46,0.8);
+   
+} 
+#login .bg-content{
+    width: 40%;
+    height: 100%;
+    color: #fff;
+    float:right;
+    padding: 30px 0 0 20px;
+}
+#login .bg h2{
+    margin: 10px 0;
+}
+#login .login-btn{
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 10px;
+    transition: 0.25s;
+}
+#login .login-btn:hover{
+   color: #000; 
+   background-color: #fff;
+   transition: 0.25s;
+   cursor: pointer;
+}
+#login #form{
+    background-color: #fff;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 30px;
+}
+#form h2{
+    color: crimson;
+    margin: 10px 0;
+}
+#form .input{
+    display: block;
+    padding: 10px 0;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(177, 176, 176);
+    width: 100%;
+}
+#form .input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(95, 94, 94);
+}
+#form .submit-btn{
+    float: right;
+    background-color: crimson;
+    padding: 8px 16px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+}
+#form .submit-btn:hover{
+    background-color: rgb(187, 16, 51);
+    cursor: pointer;
+}
